@@ -350,10 +350,10 @@ function initPortfolio() {
                 <div class="card border-0 shadow-sm h-100">
 
                     <img
-                        src="${project.img}"
-                        class="card-img-top"
-                        alt="${project.title}"
-                        loading="lazy">
+    src="/.netlify/images?url=/${project.img}&w=600&fm=webp&q=75"
+    class="card-img-top"
+    alt="${project.title}"
+    loading="lazy">
 
                     <div class="card-body">
 

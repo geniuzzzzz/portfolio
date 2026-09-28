@@ -18,6 +18,80 @@
 
 const projects = [
 
+
+    // focitsalc 
+    ...[
+        // "FOCITSA'LC CERTIFICATE",
+        // "LEADERSHIP SUMMIT",
+        "ORDER OF PROGRAM FOR LEADERSHIP SUMMIT GG copy.jpg",
+        "BANNER FOR LEADERSHIP SUMMIT 1.0 GG copy.jpg",
+        "MEET YOUR EXEUTIVES copy.jpg",
+        "NEW CALL TO SPONSORSHIP FLYER copy.jpg",
+        "FOCITSA BIRTHDAY FLYER copy.jpg",
+        "FOCITSA'LC NEW LETTERHEAD copy.jpg",
+        "FOCITSA'LC SIGN OUT II copy.jpg",
+        "FOCITSALC SIGN OUT copy.jpg",
+        "IMG-20260915-WA0029.jpg",
+        "MEET OUR SPEAKER FLYER FOR LAYONU copy.jpg",
+        "EID FITR REDESIGN.jpg",
+        "20250920_180359.jpg",
+        "20250923_124522.jpg",
+        "20250923_124739.jpg",
+        "20250923_124953.jpg",
+        // "WhatsApp Image 2025-11-26 at 14.46.11.jpeg",
+        // "WhatsApp Image 2025-11-26 at 16.14.44.jpeg",
+        "official-sitting.jpeg"
+    ].map(file => ({
+        organization: "focitsalc",
+        organizationName: "FOCITSALC",
+        type: "design",
+        folder: "projects/FOCITSA'LC",
+        file
+    })),
+
+
+    // nacoss
+
+    ...[
+        "NACOSS EXAM SUCCESS copy.jpg",
+        "SESSION COMPLETION NACOSS copy.jpg"
+    ].map(file => ({
+        organization: "nacoss",
+        organizationName: "NACOSS",
+        type: "design",
+        folder: "projects/NACOSS",
+        file
+    })),
+
+
+    // elections
+
+
+
+
+
+    ...[
+        "CAMPAIGN FLYER 2 copy.jpg",
+        "CAMPAIGN FLYER copy.jpg",
+        "file_000000009d9861f9a5e5da789caf5571.png",
+        "GABRIEL CAMPAIGN FLYER copy.jpg",
+        "NBTC CAMPAIGN FLYER copy.jpg",
+        "NEW CAMPAIGN FLYER copy.jpg",
+        "OREOLUWA CAMPAIGN FLYER copy.jpg",
+        "RACHEAL CAMPAIGN  FLYER copy.jpg",
+        "SainteX vote flyer copy.jpg",
+        "SainteX watch out flyer copy.jpg",
+        "TANI CAMPAIGN FLYER copy.jpg",
+        "TANI DEPUTY SPEAKER CAMPAIGN FLYER copy.jpg"
+    ].map(file => ({
+        organization: "elections",
+        organizationName: "Election & Campaign Design",
+        type: "design",
+        folder: "projects/ELECTION DESIGNS/25 ~ 26",
+        file
+    })),
+
+
     // persona
 
     {
@@ -252,81 +326,6 @@ const projects = [
     })),
 
 
-    /* -----------------------------------------------------
-       FOCITSALC
-    ----------------------------------------------------- */
-
-    ...[
-        // "FOCITSA'LC CERTIFICATE",
-        // "LEADERSHIP SUMMIT",
-        "ORDER OF PROGRAM FOR LEADERSHIP SUMMIT GG copy.jpg",
-        "BANNER FOR LEADERSHIP SUMMIT 1.0 GG copy.jpg",
-        "MEET YOUR EXEUTIVES copy.jpg",
-        "NEW CALL TO SPONSORSHIP FLYER copy.jpg",
-        "FOCITSA BIRTHDAY FLYER copy.jpg",
-        "FOCITSA'LC NEW LETTERHEAD copy.jpg",
-        "FOCITSA'LC SIGN OUT II copy.jpg",
-        "FOCITSALC SIGN OUT copy.jpg",
-        "IMG-20260915-WA0029.jpg",
-        "MEET OUR SPEAKER FLYER FOR LAYONU copy.jpg",
-        "EID FITR REDESIGN.jpg",
-        "20250920_180359.jpg",
-        "20250923_124522.jpg",
-        "20250923_124739.jpg",
-        "20250923_124953.jpg",
-        // "WhatsApp Image 2025-11-26 at 14.46.11.jpeg",
-        // "WhatsApp Image 2025-11-26 at 16.14.44.jpeg",
-        "official-sitting.jpeg"
-    ].map(file => ({
-        organization: "focitsalc",
-        organizationName: "FOCITSALC",
-        type: "design",
-        folder: "projects/FOCITSA'LC",
-        file
-    })),
-
-
-    // nacoss
-
-    ...[
-        "NACOSS EXAM SUCCESS copy.jpg",
-        "SESSION COMPLETION NACOSS copy.jpg"
-    ].map(file => ({
-        organization: "nacoss",
-        organizationName: "NACOSS",
-        type: "design",
-        folder: "projects/NACOSS",
-        file
-    })),
-
-
-    // elections
-
-
-
-
-
-    ...[
-        "CAMPAIGN FLYER 2 copy.jpg",
-        "CAMPAIGN FLYER copy.jpg",
-        "file_000000009d9861f9a5e5da789caf5571.png",
-        "GABRIEL CAMPAIGN FLYER copy.jpg",
-        "NBTC CAMPAIGN FLYER copy.jpg",
-        "NEW CAMPAIGN FLYER copy.jpg",
-        "OREOLUWA CAMPAIGN FLYER copy.jpg",
-        "RACHEAL CAMPAIGN  FLYER copy.jpg",
-        "SainteX vote flyer copy.jpg",
-        "SainteX watch out flyer copy.jpg",
-        "TANI CAMPAIGN FLYER copy.jpg",
-        "TANI DEPUTY SPEAKER CAMPAIGN FLYER copy.jpg"
-    ].map(file => ({
-        organization: "elections",
-        organizationName: "Election & Campaign Design",
-        type: "design",
-        folder: "projects/ELECTION DESIGNS/25 ~ 26",
-        file
-    })),
-
 
     //    elections
 
@@ -407,7 +406,9 @@ function buildAssetPath(folder, file) {
 
     const encodedFile = encodeURIComponent(file);
 
-    return `assets/img/${encodedFolder}/${encodedFile}`;
+    const originalPath = `assets/img/${encodedFolder}/${encodedFile}`;
+
+    return `/.netlify/images?url=/${originalPath}&w=500&fm=webp&q=75`;
 }
 
 
