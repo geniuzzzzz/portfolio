@@ -1,0 +1,127 @@
+@media (min-width: 769px) {
+    .menu {
+        display: none;
+    }
+
+    .ul {
+        display: flex;
+    }
+
+    .contact {
+        display: block;
+    }
+
+    .up {
+        width: fit-content !important;
+    }
+
+    /* hero */
+
+    .hero-text h1 {
+        font-size: 2.9rem;
+    }
+
+    .hero-text p {
+        font-size: 1.5rem;
+    }
+
+    .hero-btn {
+        font-size: 1.2rem;
+    }
+
+    .about-title h1 {
+        align-self: center;
+        font-size: 1rem;
+    }
+
+    .about-inner {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: calc(100% - 50px);
+        justify-self: center !important;
+        justify-content: center;
+    }
+
+    .about-inn {
+        justify-self: center !important;
+    }
+
+    /* .about-inn h1 {
+        padding: 0;
+        padding: 10px 44px;
+        font-size: 1.2rem;
+    } */
+
+    .about-inn img {
+        width: 100%;
+        height: auto;
+        /* display: block; */
+        /* justify-self: center; */
+    }
+
+    .aboutP {
+        margin-top: 20px;
+    }
+
+    .aboutP p {
+        font-size: 0.8rem;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .about-hr {
+        display: block;
+        background-color: aqua;
+        width: 80%;
+        height: 1px;
+        margin: 0;
+        justify-self: center;
+    }
+
+    .mission {
+        margin-top: 200px;
+        justify-self: center;
+    }
+
+
+
+    .edu-div {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+
+
+
+    .service-cardss {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 30px;
+    }
+
+    .service-cardss .service-card {
+        height: auto;
+        padding: 20px;
+
+    }
+
+    .service-cardss .service-card h4 {
+        font-size: 1rem;
+    }
+
+
+    /* projects  */
+
+    .web {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 2rem;
+        margin-top: 30px;
+    }
+
+    .design{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

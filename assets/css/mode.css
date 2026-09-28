@@ -1,0 +1,109 @@
+.mode {
+    /* padding: 5px 10px; */
+    margin-left: 20px;
+    background-color: #0d8bf2;
+    color: azure;
+    border: none;
+    position: absolute;
+    z-index: 39999;
+    right: 30px;
+    top: 55px;
+    width: fit-content;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #000;
+    position: fixed;
+}
+
+.moded {
+    animation: idk 0.7s ease;
+}
+
+.modee {
+    animation: idk 0.7s ease;
+    background-color: azure;
+    color: #0d8bf2;
+    /* box-shadow: 0 0 30px azure; */
+}
+
+.mode i {
+    animation: idk 0.7s ease !important;
+    padding: 15px 15px;
+    width: 100%;
+}
+
+.mode i:hover {
+    transform: rotate(360deg);
+}
+
+.mode i:first-child {
+    transform: rotate(360deg);
+
+}
+
+.mode i:nth-child(2) {
+    transition: all 0.5s ease-in-out;
+    display: none;
+    padding: 15px 15px;
+    animation: idk 1.5s ease;
+}
+
+@keyframes idk {
+    from {
+        opacity: 0.2;
+    }
+
+    to {}
+}
+
+.dark-about {
+    background-color: black;
+    color: azure;
+}
+
+.dark-mode {
+    background-color: #121212 !important;
+    color: #e0e0e0;
+    transition: all 0.3s ease-in-out;
+}
+
+.why-dark {
+    background-color: transparent;
+    color: azure;
+}
+
+.why-dark hr {
+    background-color: azure;
+}
+
+.nav-dark {
+    color: azure !important;
+}
+
+.readMore-dark {
+    color: azure;
+    background-color: #0d8bf2;
+    border: 1px dotted white;
+}
+
+.readMore-dark:hover {
+    background-color: transparent;
+}
+
+.modal-dark {
+    color: #0d8bf2;
+}
+
+.brand-dark {
+    color: azure;
+}
+
+.service-dark{
+    background-color: #000 !important;
+    /* color: white; */
+}
+
+.serv-dark{
+    background-color: #000 !important;
+    
+}

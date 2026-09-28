@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Work | AbdulBaaqi</title>
+
+    <meta name="description"
+        content="A selection of AbdulBaaqi's graphic design work, organization projects, election designs, and frontend practice builds.">
+
+    <meta name="author" content="AbdulBaaqi Akinlade Olajide">
+
+    <meta property="og:title" content="My Work | AbdulBaaqi">
+    <meta property="og:description"
+        content="A selection of AbdulBaaqi's graphic design work, organization projects, election designs, and frontend practice builds.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://ab_dev_design.netlify.app/assets/img/og-image.jpg">
+    <meta property="og:url" content="https://ab_dev_design.netlify.app/projects.html">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="My Work | AbdulBaaqi">
+    <meta name="twitter:description"
+        content="A selection of AbdulBaaqi's graphic design work, organization projects, election designs, and frontend practice builds.">
+    <meta name="twitter:image" content="https://ab_dev_design.netlify.app/assets/img/og-image.jpg">
+
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/projects.css">
+</head>
+
+<body class="projects-page">
+
+    <!-- screen load -->
+    <div class="loading-screen" id="loadingScreen">
+
+        <div class="loader"></div>
+
+        <h2 class="text-primary mb-3">
+            AbdulBaaqi.dev
+        </h2>
+
+        <p class="text-secondary">
+            Loading work...
+        </p>
+
+    </div>
+
+
+    <div class="progress-bar" id="progressBar"></div>
+
+
+    <!-- navbar  -->
+
+    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
+
+        <div class="container">
+
+            <a href="index.html" class="navbar-brand">
+                AbdulBaaqi<span>.dev</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" id="mobileMenuBtn" aria-label="Open navigation menu">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="mainNav">
+
+                <ul class="navbar-nav ms-auto align-items-center">
+
+                    <li class="nav-item">
+
+                        <a href="index.html" class="nav-link">
+                            <i class="fas fa-home me-1"></i>
+                            HOME
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="index.html#about" class="nav-link">
+                            <i class="fas fa-user me-1"></i>
+                            ABOUT
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="index.html#services" class="nav-link">
+                            <i class="fas fa-briefcase me-1"></i>
+                            SERVICES
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="index.html#portfolio" class="nav-link active">
+
+                            <i class="fas fa-laptop-code me-1"></i>
+                            WORK
+
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item">
+
+                        <a href="index.html#contact" class="nav-link">
+                            <i class="fas fa-envelope me-1"></i>
+                            CONTACT
+                        </a>
+
+                    </li>
+
+                    <li class="nav-item ms-lg-3">
+
+                        <a href="index.html#contact" class="btn btn-primary">
+
+                            <i class="fas fa-paper-plane me-1"></i>
+                            Get in Touch
+
+                        </a>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+
+    <!-- mobile nav -->
+
+    <div class="mobile-nav" id="mobileNav">
+
+        <div class="mobile-nav-links">
+
+            <a href="index.html" class="mobile-nav-link" onclick="closeMobileNav()">
+
+                <i class="fas fa-home me-2"></i>
+                HOME
+
+            </a>
+
+            <a href="index.html#about" class="mobile-nav-link" onclick="closeMobileNav()">
+
+                <i class="fas fa-user me-2"></i>
+                ABOUT
+
+            </a>
+
+            <a href="index.html#services" class="mobile-nav-link" onclick="closeMobileNav()">
+
+                <i class="fas fa-briefcase me-2"></i>
+                SERVICES
+
+            </a>
+
+            <a href="index.html#portfolio" class="mobile-nav-link" onclick="closeMobileNav()">
+
+                <i class="fas fa-laptop-code me-2"></i>
+                WORK
+
+            </a>
+
+            <a href="index.html#contact" class="mobile-nav-link" onclick="closeMobileNav()">
+
+                <i class="fas fa-envelope me-2"></i>
+                CONTACT
+
+            </a>
+
+            <a href="index.html#contact" class="btn btn-primary w-100 mt-4" onclick="closeMobileNav()">
+
+                <i class="fas fa-paper-plane me-1"></i>
+                Get in Touch
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- hero  -->
+
+    <section class="projects-hero">
+
+        <div class="projects-hero-bg"></div>
+
+        <div class="container">
+
+            <div class="projects-hero-content">
+
+                <span class="projects-eyebrow">
+                    <i class="fas fa-layer-group me-2"></i>
+                    MY WORK
+                </span>
+
+                <h1 class="text-white">
+                    Designs, ideas &amp;
+                    <span>digital work.</span>
+                </h1>
+
+                <p>
+                    My growing collection of graphic design work created
+                    across organizations, communities, independent projects,
+                    and frontend practice.
+                </p>
+
+                <div class="projects-hero-actions">
+
+                    <a href="#designArchive" class="btn btn-light btn-lg">
+
+                        <i class="fas fa-images me-2"></i>
+                        Explore Designs
+
+                    </a>
+
+                    <a href="#frontendWork" class="btn btn-outline-light btn-lg">
+
+                        <i class="fas fa-code me-2"></i>
+                        Frontend Work
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- overview  -->
+
+    <section class="py-5 work-overview">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2 class="display-5 fw-bold">
+                    WORK ARCHIVE
+                </h2>
+
+                <p class="section-subtitle">
+                    Browse my work(s) by organization, project context,
+                    or independent design work.
+                </p>
+
+            </div>
+
+
+            <div class="row g-4 d-flex" style="justify-content: center;">
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="archive-stat">
+
+                        <span class="archive-stat-icon">
+                            <i class="fas fa-palette"></i>
+                        </span>
+
+                        <div>
+                            <strong id="totalDesignCount">
+                                —
+                            </strong>
+
+                            <span>
+                                Designs currently listed
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-6 col-lg-3">
+
+                    <div class="archive-stat">
+
+                        <span class="archive-stat-icon">
+                            <i class="fas fa-users"></i>
+                        </span>
+
+                        <div>
+                            <strong>
+                                4
+                            </strong>
+
+                            <span>
+                                Organizations / contexts
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- <div class="col-md-6 col-lg-3">
+
+                    <div class="archive-stat">
+
+                        <span class="archive-stat-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </span>
+
+                        <div>
+                            <strong id="electionCount">
+                                —
+                            </strong>
+
+                            <span>
+                                Election designs
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+
+                <!-- <div class="col-md-6 col-lg-3">
+
+                    <div class="archive-stat">
+
+                        <span class="archive-stat-icon">
+                            <i class="fas fa-code"></i>
+                        </span>
+
+                        <div>
+                            <strong>
+                                Frontend
+                            </strong>
+
+                            <span>
+                                Practice &amp; personal builds
+                            </span>
+                        </div>
+
+                    </div>
+
+                </div> -->
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- archive  -->
+
+    <section id="designArchive" class="py-5 design-archive">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2 class="display-5 fw-bold">
+                    DESIGN ARCHIVE
+                </h2>
+
+                <p class="section-subtitle">
+                    Explore the visual work by where and how it was created.
+                </p>
+
+            </div>
+
+
+            <!-- Organizations -->
+
+            <div class="work-filters-wrapper">
+
+                <div class="work-filters" id="organizationFilters">
+
+                    <button class="filter-btn btn btn-outline-primary active" data-filter="all">
+
+                        ALL WORK
+
+                    </button>
+
+                    <button class="filter-btn btn btn-outline-primary" data-filter="personal">
+
+                         INDEPENDENT
+
+                    </button>
+
+                    <button class="filter-btn btn btn-outline-primary" data-filter="ccc">
+
+                        CCC
+
+                    </button>
+
+                    <button class="filter-btn btn btn-outline-primary" data-filter="focitsalc">
+
+                        FOCITSALC
+
+                    </button>
+
+                    <button class="filter-btn btn btn-outline-primary" data-filter="nacoss">
+
+                        NACOSS
+
+                    </button>
+
+                    <button class="filter-btn btn btn-outline-primary" data-filter="elections">
+
+                        ELECTION &amp; CAMPAIGN
+
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <!-- Search -->
+
+            <div class="project-toolbar">
+
+                <div class="project-search">
+
+                    <i class="fas fa-search"></i>
+
+                    <input type="search" id="projectSearch" placeholder="Search designs..." aria-label="Search designs">
+
+                </div>
+
+                <div class="project-results" id="projectResults">
+                </div>
+
+            </div>
+
+
+            <!-- Design Grid -->
+
+            <div class="row g-4 project-grid" id="projectGrid">
+            </div>
+
+
+            <!-- No Results -->
+
+            <div id="noProjects" class="no-projects d-none">
+
+                <div class="no-projects-icon">
+                    <i class="fas fa-folder-open"></i>
+                </div>
+
+                <h4>
+                    No matching designs
+                </h4>
+
+                <p>
+                    Try another organization or search term.
+                </p>
+
+                <button class="btn btn-outline-primary" id="resetProjects">
+
+                    Reset Filters
+
+                </button>
+
+            </div>
+
+
+            <!-- Load More -->
+
+            <div class="text-center mt-5" id="loadMoreWrapper">
+
+                <button class="btn btn-outline-primary btn-lg" id="loadMoreBtn">
+
+                    Load More
+                    <i class="fas fa-arrow-down ms-2"></i>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- frontend  -->
+
+    <section id="frontendWork" class="py-5 bg-light frontend-section">
+
+        <div class="container">
+
+            <div class="section-header">
+
+                <h2 class="display-5 fw-bold">
+                    WEBSITE &amp; FRONTEND WORK
+                </h2>
+
+                <p class="section-subtitle">
+                    A few websites and frontend projects I've built
+                    while developing my web development skills.
+                </p>
+
+            </div>
+
+
+
+            <div class="portfolio-note">
+
+                <!-- <div class="portfolio-note-icon">
+                    <i class="fas fa-code"></i>
+                </div> -->
+
+                <div>
+
+                    <h5 class="text-center text-decoration-underline">
+                        A note on the frontend work
+                    </h5>
+
+                    <p class="mb-0">
+                        These projects(which are not added) includes practice builds, personal
+                        projects, and learning exercises created while I
+                        continue developing my frontend skills. My design
+                        work currently forms the larger part of this portfolio.
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="row g-4 mt-4">
+
+                <!-- MSG101 -->
+
+                <div class="col-lg-6">
+
+                    <article class="frontend-card">
+
+                        <div class="frontend-card-image">
+
+                            <div class="frontend-placeholder">
+                                <i class="fas fa-calendar-days"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="frontend-card-body">
+
+                            <span class="project-type-label">
+                                FRONTEND PROJECT
+                            </span>
+
+                            <h3>
+                                MSG101 Event Website
+                            </h3>
+
+                            <p>
+                                An event-focused website built for an
+                                online webinar/event experience, including
+                                event information, speakers, countdown,
+                                and related sections.
+                            </p>
+
+                            <a href="https://msg101.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary">
+
+                                View Website
+                                <i class="fas fa-arrow-up-right-from-square ms-2"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+
+                <!-- NovaTech -->
+
+                <div class="col-lg-6">
+
+                    <article class="frontend-card">
+
+                        <div class="frontend-card-image">
+
+                            <div class="frontend-placeholder">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+
+                        </div>
+
+                        <div class="frontend-card-body">
+
+                            <span class="project-type-label">
+                                FRONTEND PROJECT
+                            </span>
+
+                            <h3>
+                                NovaTech Solutions
+                            </h3>
+
+                            <p>
+                                A website concept developed from a
+                                visual design/flyer direction into a
+                                responsive web experience.
+                            </p>
+
+                            <a href="https://nova-tech-sol.netlify.app/" target="_blank" rel="noopener noreferrer"
+                                class="btn btn-primary">
+
+                                View Website
+                                <i class="fas fa-arrow-up-right-from-square ms-2"></i>
+
+                            </a>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- call ta  -->
+
+    <section class="py-5">
+
+        <div class="container">
+
+            <div class="work-cta text-center">
+
+                <span class="projects-eyebrow">
+                    HAVE SOMETHING IN MIND?
+                </span>
+
+                <h2 class="text-white">
+                    Let's turn the idea into something useful.
+                </h2>
+
+                <p>
+                    Whether it's a visual design, website, event,
+                    or digital idea, feel free to reach out.
+                </p>
+
+                <a href="index.html#contact" class="btn btn-light btn-lg">
+
+                    <i class="fas fa-paper-plane me-2"></i>
+                    Get in Touch
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- footer  -->
+
+    <footer class="footer bg-dark text-white py-5">
+
+        <div class="container">
+
+            <div class="row g-4">
+
+                <div class="col-lg-5">
+
+                    <h3 class="text-white">
+                        AbdulBaaqi<span class="text-primary">.dev</span>
+                    </h3>
+
+                    <p class="text-white-50">
+                        Graphic design and frontend development
+                        for ideas worth building.
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-3">
+
+                    <h5 class="text-white">
+                        Quick Links
+                    </h5>
+
+                    <ul class="list-unstyled">
+
+                        <li class="mb-2">
+                            <a href="index.html#about" class="text-white-50">
+
+                                About Me
+
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="index.html#services" class="text-white-50">
+
+                                Services
+
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="index.html#portfolio" class="text-white-50">
+
+                                My Work
+
+                            </a>
+                        </li>
+
+                        <li class="mb-2">
+                            <a href="index.html#contact" class="text-white-50">
+
+                                Contact
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <div class="col-lg-4">
+
+                    <h5 class="text-white">
+                        Connect With Me
+                    </h5>
+
+                    <div class="social-links mb-4">
+
+                        <!-- <a
+                            href="https://www.instagram.com/abdulbaaqi_dev_design"
+                            class="social-link bg-dark text-white-50"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="Instagram">
+
+                            <i class="fab fa-instagram"></i>
+
+                        </a>
+
+                        <a
+                            href="https://x.com/abdulbaaqi_dev_design"
+                            class="social-link bg-dark text-white-50"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            aria-label="X">
+
+                            <i class="fab fa-x-twitter"></i>
+
+                        </a> -->
+
+                        <a href="https://www.linkedin.com/in/abdlbaaqi" class="social-link bg-dark text-white-50"
+                            target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+
+                            <i class="fab fa-linkedin-in"></i>
+
+                        </a>
+
+                        <a href="https://wa.me/2348071385392" class="social-link bg-dark text-white-50" target="_blank"
+                            rel="noopener noreferrer" aria-label="WhatsApp">
+
+                            <i class="fab fa-whatsapp"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <hr class="my-4 opacity-25">
+
+
+            <div class="text-center">
+
+                <p class="text-white-50 mb-0">
+
+                    &copy; 2023 -
+                    <span id="currentYear"></span>
+                    AbdulBaaqi.
+                    All rights reserved.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- WhatsApp -->
+
+    <a href="https://wa.me/2348071385392?text=Hello%20AbdulBaaqi!%20I%20would%20like%20to%20discuss%20a%20project."
+        class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Contact AbdulBaaqi on WhatsApp">
+
+        <i class="fab fa-whatsapp"></i>
+
+    </a>
+
+
+    <!--  -->
+
+
+    <div class="project-modal" id="projectModal" aria-hidden="true">
+
+        <div class="project-modal-backdrop" id="modalBackdrop"></div>
+
+        <div class="project-modal-content" role="dialog" aria-modal="true" aria-label="Design preview">
+
+            <button class="project-modal-close" id="modalClose" aria-label="Close preview">
+
+                <i class="fas fa-times"></i>
+
+            </button>
+
+            <div class="project-modal-image-wrapper">
+
+                <img id="modalImage" src="" alt="">
+
+            </div>
+
+            <div class="project-modal-info">
+
+                <span id="modalOrganization">
+                </span>
+
+                <h3 id="modalTitle">
+                </h3>
+
+                <p id="modalDescription">
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <!-- / -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <script src="assets/js/script.js"></script>
+
+    <script src="assets/js/projects.js"></script>
+
+</body>
+
+</html>
