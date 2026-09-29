@@ -341,16 +341,23 @@ function initPortfolio() {
                 ? "View Website"
                 : "View Design";
 
+        function getImageSrc(path) {
+
+            const isLocal =
+                location.hostname === "localhost" ||
+                location.hostname === "127.0.0.1" ||
+                location.protocol === "file:";
+
+            if (isLocal) {
+                return path;
+            }
+
+            return `/.netlify/images?url=/${path}&w=600&fm=webp&q=75`;
+        }
 
         return `
-            <div
-                class="col-lg-3 col-md-6 portfolio-item"
-                data-category="${category}">
-
-                <div class="card border-0 shadow-sm h-100">
-
-                    <img
-    src="/.netlify/images?url=/${project.img}&w=600&fm=webp&q=75"
+            <img
+    src="${getImageSrc(project.img)}"
     class="card-img-top"
     alt="${project.title}"
     loading="lazy">
