@@ -36,7 +36,7 @@ const projects = [
         "MEET OUR PANELIST FLYER FOR LAYONU.jpg",
         "FOCITSA BIRTHDAY FLYER `25.jpg",
         "EID FITR REDESIGN.jpg",
-        "MEET YOUR EXECUTIVES `25",
+        "MEET YOUR EXECUTIVES `25.jpg",
         "ONE BIRTHDAY FLYER DESIGN.jpg",
         "FOCITSALC CONVOCATION DESIGN `25.jpg",
         "FOCITSALC CONVO  DESIGN IN `25.jpg",
@@ -104,13 +104,13 @@ const projects = [
         file: "CALL FOR VOLUNTEERS.jpg"
     },
 
-    {
-        organization: "personal",
-        organizationName: "Independent",
-        type: "design",
-        folder: "projects",
-        file: "CALL FOR VOLUNTEERS.jpg"
-    },
+    // {
+    //     organization: "personal",
+    //     organizationName: "Independent",
+    //     type: "design",
+    //     folder: "projects",
+    //     file: "CALL FOR VOLUNTEERS.jpg"
+    // },
 
     {
         organization: "personal",
@@ -426,9 +426,9 @@ function buildAssetPath(folder, file) {
 
     const encodedFile = encodeURIComponent(file);
 
-    const originalPath = `assets / img / ${encodedFolder} / ${encodedFile}`;
+    const originalPath = `assets/img/${encodedFolder}/${encodedFile}`;
 
-    return `/.netlify / images ? url =/${originalPath}&w=500&fm=webp&q=75`;
+    return `/.netlify/images?url=/${originalPath}&w=500&fm=webp&q=75`;
 }
 
 
