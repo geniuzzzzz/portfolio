@@ -5,14 +5,22 @@ const projectsData = {
         {
             title: "MSG101 Event Website",
             desc: "A responsive event website for sharing event details, speakers, countdowns, and registration information.",
-            img: "assets/img/projects/msg.jpg",
+            img: "assets/img/projects/msg-flyer.jpg",
             url: "https://msg101.netlify.app"
         },
 
         {
+            title: "Sneakers — Product Page",
+            desc: "E-commerce product page with cart drawer, gallery, and quantity controls.",
+            img: "assets/img/literal-blog.jpg",
+            url: "https://sneakers-frontend-challenge.netlify.app"
+        },
+
+
+        {
             title: "Q-Leap",
             desc: "A website concept designed and developed for an AI-focused technology company.",
-            img: "assets/img/projects/qleap.jpg",
+            img: "assets/img/web/qleap.jpg",
             url: "https://qleap.netlify.app"
         },
 
@@ -21,7 +29,7 @@ const projectsData = {
         {
             title: "Egg Business Website",
             desc: "A responsive business website created to showcase an egg business and its offerings.",
-            img: "assets/img/projects/eggbiz.jpg",
+            img: "assets/img/web/MINIMAL EGG BIZ WEBSITE.jpg",
             url: "https://eggbiz.netlify.app"
         }
     ],
@@ -341,6 +349,7 @@ function initPortfolio() {
                 ? "View Website"
                 : "View Design";
 
+
         function getImageSrc(path) {
 
             const isLocal =
@@ -354,13 +363,14 @@ function initPortfolio() {
 
             return `/.netlify/images?url=/${path}&w=600&fm=webp&q=75`;
         }
-
         return `
-            <img
-    src="${getImageSrc(project.img)}"
-    class="card-img-top"
-    alt="${project.title}"
-    loading="lazy">
+            <div
+                class="col-lg-3 col-md-6 portfolio-item"
+                data-category="${category}">
+
+                <div class="card border-0 shadow-sm h-100">
+
+                    <img src="${getImageSrc(project.img)}" class="card-img-top" alt="${project.title}" loading="lazy">
 
                     <div class="card-body">
 
