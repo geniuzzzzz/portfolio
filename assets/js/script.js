@@ -5,14 +5,14 @@ const projectsData = {
         {
             title: "MSG101 Event Website",
             desc: "A responsive event website for sharing event details, speakers, countdowns, and registration information.",
-            img: "assets/img/projects/msg-flyer.jpg",
+            img: "assets/img/web/MSG101 WEBINAR WEBSITE.jpg",
             url: "https://msg101.netlify.app"
         },
 
         {
             title: "Sneakers — Product Page",
             desc: "E-commerce product page with cart drawer, gallery, and quantity controls.",
-            img: "assets/img/literal-blog.jpg",
+            img: "assets/img/web/FRONTEND CART CHALLENGE.png",
             url: "https://sneakers-frontend-challenge.netlify.app"
         },
 
