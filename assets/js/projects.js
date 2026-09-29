@@ -418,7 +418,6 @@ const modalDescription = document.getElementById("modalDescription");
 /////
 
 function buildAssetPath(folder, file) {
-
     const encodedFolder = folder
         .split("/")
         .map(part => encodeURIComponent(part))
@@ -427,6 +426,15 @@ function buildAssetPath(folder, file) {
     const encodedFile = encodeURIComponent(file);
 
     const originalPath = `assets/img/${encodedFolder}/${encodedFile}`;
+
+    const isLocal =
+        location.hostname === "localhost" ||
+        location.hostname === "127.0.0.1" ||
+        location.protocol === "file:";
+
+    if (isLocal) {
+        return originalPath;
+    }
 
     return `/.netlify/images?url=/${originalPath}&w=500&fm=webp&q=75`;
 }
