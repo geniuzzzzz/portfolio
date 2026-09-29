@@ -365,7 +365,7 @@ function initPortfolio() {
         }
         return `
             <div
-                class="col-lg-3 col-md-6 portfolio-item"
+                class="col-lg-3 col-md-6 portfolio-item d-flex"
                 data-category="${category}">
 
                 <div class="card border-0 shadow-sm h-100">

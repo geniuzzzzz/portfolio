@@ -32,7 +32,7 @@ const projects = [
         "FOCITSA'LC CERTIFICATE FOR SPEAKER.jpg",
         "FOCITSALC SIGN OUT DESIGN II.jpg",
         "FOCITSALC SIGN OUT DESIGN.jpg",
-        "FLYER DESIGN FOR FOCITSA CONGRESS.jpg",
+        "FLYER DESIGN FOR FOCITSA CONGRESS.jpeg",
         "MEET OUR PANELIST FLYER FOR LAYONU.jpg",
         "FOCITSA BIRTHDAY FLYER `25.jpg",
         "EID FITR REDESIGN.jpg",
@@ -133,7 +133,7 @@ const projects = [
         organizationName: "Independent",
         type: "design",
         folder: "projects",
-        file: "MSSN OAUSTECH CALL FOR DONATION FLYER`25.jpg"
+        file: "MSSN OAUSTECH CALL FOR DONATION FLYER `25.jpeg"
     },
 
 
@@ -159,7 +159,7 @@ const projects = [
         organizationName: "Independent",
         type: "design",
         folder: "projects",
-        file: "PRAY-A-THON FLYER DESIGN.jpg"
+        file: "PRAY-A-THON FLYER DESIGN.jpeg"
     },
 
 
@@ -353,9 +353,9 @@ const projects = [
     ...[
         "ELECTION FLYER DESIGN 1  `25.jpg",
         "ELECTION FLYER DESIGN 2  `25.jpg",
-        "ELECTION FLYER DESIGN 3  `25.jpg",
+        "ELECTION FLYER DESIGN 3 `25.jpg",
         "ELECTION FLYER DESIGN 4  `25.jpg",
-        "ELECTION FLYER DESIGN 5  `25.jpg",
+        "ELECTION FLYER DESIGN 5 `25.jpg",
         "ELECTION FLYER DESIGN 6  `25.jpg",
         "ELECTION FLYER DESIGN 7  `25.jpg",
         "ELECTION FLYER DESIGN 8  `25.jpg",
