@@ -5,14 +5,14 @@ const projectsData = {
         {
             title: "MSG101 Event Website",
             desc: "A responsive event website for sharing event details, speakers, countdowns, and registration information.",
-            img: "assets/img/msg.jpg",
+            img: "assets/img/projects/msg.jpg",
             url: "https://msg101.netlify.app"
         },
 
         {
             title: "Q-Leap",
             desc: "A website concept designed and developed for an AI-focused technology company.",
-            img: "assets/img/qleap.jpg",
+            img: "assets/img/projects/qleap.jpg",
             url: "https://qleap.netlify.app"
         },
 
@@ -21,7 +21,7 @@ const projectsData = {
         {
             title: "Egg Business Website",
             desc: "A responsive business website created to showcase an egg business and its offerings.",
-            img: "assets/img/eggbiz.jpg",
+            img: "assets/img/projects/eggbiz.jpg",
             url: "https://eggbiz.netlify.app"
         }
     ],
@@ -30,78 +30,78 @@ const projectsData = {
         {
             title: "Business Flyer",
             desc: "Promotional flyer created for a business campaign.",
-            img: "assets/img/business-flyer.jpg",
-            url: "assets/img/business-flyer.jpg"
+            img: "assets/img/projects/business-flyer.jpg",
+            url: "assets/img/projects/business-flyer.jpg"
         },
 
         {
             title: "Pioneer Space Logo",
             desc: "A logo concept created for Pioneer Space.",
-            img: "assets/img/logo-design.jpg",
-            url: "assets/img/logo-design.jpg"
+            img: "assets/img/projects/logo-design.jpg",
+            url: "assets/img/projects/logo-design.jpg"
         },
 
         {
             title: "Event Session Flyer",
             desc: "Event graphic created to communicate session details clearly and attract attention.",
-            img: "assets/img/session-flyer.jpg",
-            url: "assets/img/session-flyer.jpg"
+            img: "assets/img/projects/session-flyer.jpg",
+            url: "assets/img/projects/session-flyer.jpg"
         },
 
         {
             title: "MSG101 Event Flyer",
             desc: "Promotional flyer designed for the MSG101 event.",
-            img: "assets/img/msg-flyer.jpg",
-            url: "assets/img/msg-flyer.jpg"
+            img: "assets/img/projects/msg-flyer.jpg",
+            url: "assets/img/projects/msg-flyer.jpg"
         },
 
         {
             title: "Brand Logo",
             desc: "A simple logo concept built around a clean and recognizable visual identity.",
-            img: "assets/img/logo3.png",
-            url: "assets/img/logo3.png"
+            img: "assets/img/projects/logo3.png",
+            url: "assets/img/projects/logo3.png"
         },
 
         {
             title: "TranzactHub Logo",
             desc: "Logo concept created for TranzactHub.",
-            img: "assets/img/logo2.jpg",
-            url: "assets/img/logo2.jpg"
+            img: "assets/img/projects/logo2.jpg",
+            url: "assets/img/projects/logo2.jpg"
         },
 
         {
             title: "Independence Flyer",
             desc: "Graphic design created for Nigeria's Independence celebration.",
-            img: "assets/img/nigeria-flyer.jpg",
-            url: "assets/img/nigeria-flyer.jpg"
+            img: "assets/img/projects/nigeria-flyer.jpg",
+            url: "assets/img/projects/nigeria-flyer.jpg"
         },
 
         {
             title: "21-Day Challenge Flyer",
             desc: "Promotional graphic created for a 21-day challenge.",
-            img: "assets/img/challenge-flyer.jpg",
-            url: "assets/img/challenge-flyer.jpg"
+            img: "assets/img/projects/challenge-flyer.jpg",
+            url: "assets/img/projects/challenge-flyer.jpg"
         },
 
         {
             title: "Event Flyer",
             desc: "Event graphic designed with a clear information hierarchy and visual structure.",
-            img: "assets/img/event-flyer.jpg",
-            url: "assets/img/event-flyer.jpg"
+            img: "assets/img/projects/event-flyer.jpg",
+            url: "assets/img/projects/event-flyer.jpg"
         },
 
         {
             title: "New Month Flyer",
             desc: "Social media graphic created as part of a monthly design series.",
-            img: "assets/img/month-flyer.jpg",
-            url: "assets/img/month-flyer.jpg"
+            img: "assets/img/projects/month-flyer.jpg",
+            url: "assets/img/projects/month-flyer.jpg"
         },
 
         {
             title: "Ebook Promotional Flyer",
             desc: "Promotional graphic designed to introduce and market an ebook.",
-            img: "assets/img/media-flyer.jpg",
-            url: "assets/img/media-flyer.jpg"
+            img: "assets/img/projects/media-flyer.jpg",
+            url: "assets/img/projects/media-flyer.jpg"
         }
     ]
 };

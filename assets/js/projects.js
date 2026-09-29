@@ -24,20 +24,23 @@ const projects = [
         // "FOCITSA'LC CERTIFICATE",
         // "LEADERSHIP SUMMIT",
         "ORDER OF PROGRAM FOR LEADERSHIP SUMMIT GG copy.jpg",
-        "BANNER FOR LEADERSHIP SUMMIT 1.0 GG copy.jpg",
-        "MEET YOUR EXEUTIVES copy.jpg",
+        "BANNER FOR LEADERSHIP SUMMIT 1.0.jpg",
+        "MEET YOUR EXEUTIVES `26.jpg",
         "NEW CALL TO SPONSORSHIP FLYER copy.jpg",
-        "FOCITSA BIRTHDAY FLYER copy.jpg",
-        "FOCITSA'LC NEW LETTERHEAD copy.jpg",
-        "FOCITSA'LC SIGN OUT II copy.jpg",
-        "FOCITSALC SIGN OUT copy.jpg",
-        "IMG-20260915-WA0029.jpg",
-        "MEET OUR SPEAKER FLYER FOR LAYONU copy.jpg",
+        "FOCITSA BIRTHDAY FLYER `26.jpg",
+        "FOCITSA'LC NEW LETTERHEAD `26.jpg",
+        "FOCITSA'LC CERTIFICATE FOR SPEAKER.jpg",
+        "FOCITSALC SIGN OUT DESIGN II.jpg",
+        "FOCITSALC SIGN OUT DESIGN.jpg",
+        "FLYER DESIGN FOR FOCITSA CONGRESS.jpg",
+        "MEET OUR PANELIST FLYER FOR LAYONU.jpg",
+        "FOCITSA BIRTHDAY FLYER `25.jpg",
         "EID FITR REDESIGN.jpg",
-        "20250920_180359.jpg",
-        "20250923_124522.jpg",
-        "20250923_124739.jpg",
-        "20250923_124953.jpg",
+        "MEET YOUR EXECUTIVES `25",
+        "ONE BIRTHDAY FLYER DESIGN.jpg",
+        "FOCITSALC CONVOCATION DESIGN `25.jpg",
+        "FOCITSALC CONVO  DESIGN IN `25.jpg",
+        "FOCITSALC CONVO & BIRTHDAY DESIGN FOR SPEAKER `25.jpg",
         // "WhatsApp Image 2025-11-26 at 14.46.11.jpeg",
         // "WhatsApp Image 2025-11-26 at 16.14.44.jpeg",
         "official-sitting.jpeg"
@@ -53,8 +56,8 @@ const projects = [
     // nacoss
 
     ...[
-        "NACOSS EXAM SUCCESS copy.jpg",
-        "SESSION COMPLETION NACOSS copy.jpg"
+        "NACOSS EXAM SUCCESS FLYER DESIGN.jpg",
+        "SESSION COMPLETION NACOSS FLYER DESIGN.jpg"
     ].map(file => ({
         organization: "nacoss",
         organizationName: "NACOSS",
@@ -71,18 +74,17 @@ const projects = [
 
 
     ...[
-        "CAMPAIGN FLYER 2 copy.jpg",
-        "CAMPAIGN FLYER copy.jpg",
-        "file_000000009d9861f9a5e5da789caf5571.png",
-        "GABRIEL CAMPAIGN FLYER copy.jpg",
-        "NBTC CAMPAIGN FLYER copy.jpg",
-        "NEW CAMPAIGN FLYER copy.jpg",
-        "OREOLUWA CAMPAIGN FLYER copy.jpg",
-        "RACHEAL CAMPAIGN  FLYER copy.jpg",
-        "SainteX vote flyer copy.jpg",
-        "SainteX watch out flyer copy.jpg",
-        "TANI CAMPAIGN FLYER copy.jpg",
-        "TANI DEPUTY SPEAKER CAMPAIGN FLYER copy.jpg"
+        "CAMPAIGN FLYER 1  `26.jpg",
+        "CAMPAIGN FLYER 2  `26.jpg",
+        "CAMPAIGN FLYER 3  `26.jpg",
+        "CAMPAIGN FLYER 4  `26.jpg",
+        "CAMPAIGN FLYER 5  `26.jpg",
+        "CAMPAIGN FLYER 6  `26.jpg",
+        "CAMPAIGN FLYER 7  `26.jpg",
+        "CAMPAIGN FLYER 8  `26.jpg",
+        "CAMPAIGN FLYER 9  `26.jpg",
+        "CAMPAIGN FLYER 10  `26.jpg",
+
     ].map(file => ({
         organization: "elections",
         organizationName: "Election & Campaign Design",
@@ -99,16 +101,16 @@ const projects = [
         organizationName: "Independent",
         type: "design",
         folder: "projects",
-        file: "20250601_134202.jpg"
+        file: "CALL FOR VOLUNTEERS.jpg"
     },
 
-    // {
-    //     organization: "personal",
-    //     organizationName: "Independent",
-    //     type: "design",
-    //     folder: "projects",
-    //     file: "5.png"
-    // },
+    {
+        organization: "personal",
+        organizationName: "Independent",
+        type: "design",
+        folder: "projects",
+        file: "CALL FOR VOLUNTEERS.jpg"
+    },
 
     {
         organization: "personal",
@@ -131,6 +133,16 @@ const projects = [
         organizationName: "Independent",
         type: "design",
         folder: "projects",
+        file: "MSSN OAUSTECH CALL FOR DONATION FLYER`25.jpg"
+    },
+
+
+
+    {
+        organization: "personal",
+        organizationName: "Independent",
+        type: "design",
+        folder: "projects",
         file: "birthday-flyer3.jpeg"
     },
 
@@ -141,6 +153,15 @@ const projects = [
         folder: "projects",
         file: "business-flyer.jpg"
     },
+
+    {
+        organization: "personal",
+        organizationName: "Independent",
+        type: "design",
+        folder: "projects",
+        file: "PRAY-A-THON FLYER DESIGN.jpg"
+    },
+
 
     {
         organization: "personal",
@@ -235,7 +256,7 @@ const projects = [
         organizationName: "Independent",
         type: "design",
         folder: "projects",
-        file: "nigeria-flyer.jpg"
+        file: "NIGERIA INDEPENDENCE.jpg"
     },
 
     // {
@@ -251,7 +272,7 @@ const projects = [
         organizationName: "Independent",
         type: "design",
         folder: "projects",
-        file: "SEMESTER SHUTDOWN copy.jpg"
+        file: "SEMESTER SHUTDOWN.jpg"
     },
 
     {
@@ -330,25 +351,24 @@ const projects = [
     //    elections
 
     ...[
-        "20250623_192413.jpg",
-        "20250623_193051.jpg",
-        "20250623_193315.jpg",
-        "20250624_073505.jpg",
-        "20250624_081622.jpg",
-        "20250624_090733.jpg",
-        "20250624_091302.jpg",
-        "20250624_100926.jpg",
-        "20250624_113249.jpg",
-        "20250626_112226.jpg",
-        "20250626_224955.jpg",
-        "20250627_163230.jpg",
-        "20250627_183838.jpg",
-        "20250628_183004.jpg",
-        "20250629_061804.jpg",
-        "20250629_084945.jpg",
-        "20250629_085139.jpg",
-        "20250630_070733.jpg",
-        "20250711_163759.jpg"
+        "ELECTION FLYER DESIGN 1  `25.jpg",
+        "ELECTION FLYER DESIGN 2  `25.jpg",
+        "ELECTION FLYER DESIGN 3  `25.jpg",
+        "ELECTION FLYER DESIGN 4  `25.jpg",
+        "ELECTION FLYER DESIGN 5  `25.jpg",
+        "ELECTION FLYER DESIGN 6  `25.jpg",
+        "ELECTION FLYER DESIGN 7  `25.jpg",
+        "ELECTION FLYER DESIGN 8  `25.jpg",
+        "ELECTION FLYER DESIGN 9  `25.jpg",
+        "ELECTION FLYER DESIGN 10  `25.jpg",
+        "ELECTION FLYER DESIGN 11  `25.jpg",
+        "ELECTION FLYER DESIGN 12  `25.jpg",
+        "ELECTION FLYER DESIGN 13  `25.jpg",
+        "ELECTION FLYER DESIGN 14  `25.jpg",
+        "ELECTION FLYER DESIGN 15  `25.jpg",
+        "ELECTION FLYER DESIGN 16  `25.jpg",
+        "ELECTION FLYER DESIGN 17  `25.jpg",
+
     ].map(file => ({
         organization: "elections",
         organizationName: "Election & Campaign Design",
@@ -406,9 +426,9 @@ function buildAssetPath(folder, file) {
 
     const encodedFile = encodeURIComponent(file);
 
-    const originalPath = `assets/img/${encodedFolder}/${encodedFile}`;
+    const originalPath = `assets / img / ${encodedFolder} / ${encodedFile}`;
 
-    return `/.netlify/images?url=/${originalPath}&w=500&fm=webp&q=75`;
+    return `/.netlify / images ? url =/${originalPath}&w=500&fm=webp&q=75`;
 }
 
 
