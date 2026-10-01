@@ -530,62 +530,38 @@ function initThemeToggle() {
 
 function initForms() {
 
-    const form =
-        document.getElementById("contactForm");
+    const form = document.getElementById("contactForm");
 
     if (!form) return;
-
 
     form.addEventListener("submit", async event => {
 
         event.preventDefault();
 
-        const name =
-            document.getElementById("name")?.value.trim();
-
-        const email =
-            document.getElementById("email")?.value.trim();
-
-        const phone =
-            document.getElementById("phone")?.value.trim();
-
-        const service =
-            document.getElementById("service")?.value;
-
-        const message =
-            document.getElementById("message")?.value.trim();
-
+        const name = document.getElementById("name")?.value.trim();
+        const email = document.getElementById("email")?.value.trim();
+        const service = document.getElementById("service")?.value;
+        const message = document.getElementById("message")?.value.trim();
 
         if (!name || !email || !service || !message) {
             return;
         }
 
-
-        const successMessage =
-            document.getElementById("formSuccess");
-
+        const successMessage = document.getElementById("formSuccess");
 
         try {
 
-            const formData = new FormData(form);
-
-            const response = await fetch("/", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/x-www-form-urlencoded",
-                },
-                body: new URLSearchParams(formData).toString(),
-            });
-
-            if (!response.ok) {
-                throw new Error("Network response was not ok");
-            }
+            await emailjs.sendForm(
+                "service_rsmm7sh",
+                "template_4vo10i4",
+                form
+            );
 
             if (successMessage) {
                 successMessage.innerHTML = `
                     <strong>Thanks!</strong>
                     <span class="d-block mt-1">
-                        Your message has been sent successfully. I’ll get back to you soon.
+                        Your message has been sent successfully. I'll get back to you soon.
                     </span>
                 `;
                 successMessage.classList.remove("d-none");
@@ -594,7 +570,8 @@ function initForms() {
             form.reset();
 
         } catch (error) {
-            console.error("Netlify form submission failed:", error);
+
+            console.error("EmailJS failed:", error);
 
             if (successMessage) {
                 successMessage.innerHTML = `
@@ -606,9 +583,7 @@ function initForms() {
                 successMessage.classList.remove("d-none");
             }
         }
-
     });
-
 }
 
 
