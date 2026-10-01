@@ -509,6 +509,7 @@ function getFilteredProjects() {
 //////
 
 function renderProjects() {
+    
 
     const filteredProjects = getFilteredProjects();
 

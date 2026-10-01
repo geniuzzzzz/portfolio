@@ -140,13 +140,9 @@ function initLoadingScreen() {
     if (!loadingScreen) return;
 
     setTimeout(() => {
-        loadingScreen.style.opacity = "0";
-
-        setTimeout(() => {
-            loadingScreen.style.display = "none";
-        }, 500);
-
-    }, 1000);
+        loadingScreen.classList.add("hidden");
+        document.body.classList.remove("loading");
+    }, 2000); // ← both actions in the same timeout
 }
 
 

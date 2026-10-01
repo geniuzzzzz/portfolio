@@ -81,6 +81,19 @@
 }
 
 
+body.loading {
+    overflow: hidden;
+    height: 100vh;
+}
+
+body.loading::-webkit-scrollbar {
+    display: none;
+}
+
+body.loading {
+    scrollbar-width: none;
+}
+
 /* overview */
 
 .work-overview {
